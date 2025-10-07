@@ -135,6 +135,7 @@ STATIC_URL = 'static/'
 
 # This is where uploaded files are saved:
 MEDIA_ROOT = os.path.join(BASE_DIR, 'roads/media')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 # This is where uploaded files are served from:
 MEDIA_URL = 'media/'
@@ -143,3 +144,4 @@ MEDIA_URL = 'media/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
